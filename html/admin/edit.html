@@ -48,8 +48,9 @@
                 <input class="create__form-inputp" type="text" id="prod_name" name="prod_name" placeholder="Kakashi Hatake"> 
             </div>
             <div>
-                <label for="prod_desc"></label>
-                <input class="create__form-inputd" type="text" id="prod_desc" name="prod_desc" placeholder="Descripción del producto"> 
+               <label class="create__from-label"for="prod_desc">Descripción del Producto</label>
+                <input class="create__form-inputd" type="text" id="prod_desc" name="prod_desc"> 
+            </div>
             </div>
             <div>
                 <label class="create__form-label" for="sku">SKU:</label>
@@ -77,10 +78,16 @@
                 <div class="create__img">
                     <img src="../../img/star-wars/baby-yoda-1.webp" alt="frente del producto">
                     <p >Frente</p>
+                    </div class="file-upload-conteiner">
+                        <input type="file" id="file-upload" name="file" accept="image/jpeg, image/png" required>    
+                    </div>    
                 </div>
                 <div class="create__img">   
                     <img src="../../img/star-wars/baby-yoda-box.webp" alt="dorso del producto">
                     <p >Dorso</p>
+                    </div class="file-upload-conteiner">
+                        <input type="file" id="file-upload" name="file" accept="image/jpeg, image/png" required>    
+                    </div>
                 </div>
             </section>
         </form>
